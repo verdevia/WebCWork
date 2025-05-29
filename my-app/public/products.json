@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Парацетамол",
+    "description": "Жарознижуючий засіб",
+    "price": 45,
+    "image": "https://apteka911.ua/content/shop/products/27129/paratsetamol-kaps-500mg-10-tov-farm-kompaniya-zdorove-prod-400x400-aefa.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ібупрофен",
+    "description": "Знеболюючий та протизапальний засіб",
+    "price": 60,
+    "image": "https://apteka911.ua/content/shop/products/66576/ibuprofen-tabl-p-o-200mg-50-pao-vitaminyi-prod-400x400-8382.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Цитрамон-Дарниця",
+    "description": "Знеболюючий та жарознижуючий засіб",
+    "price": 35,
+    "image": "https://apteka911.ua/content/shop/products/563/tsitramon-darnitsa-tabl-6-darnitsa-chao-farm-firma-list-250x250-2c66.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Евказолін",
+    "description": "Судинозвужувальний засіб для носа",
+    "price": 55,
+    "image": "https://apteka911.ua/content/shop/products/2768/evkazolin-akva-sprey-nazal-1mg-g-fl-10ml-pao-farmak-list-250x250-14ca.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Анальгін-Дарниця",
+    "description": "Знеболюючий та жарознижуючий засіб",
+    "price": 30,
+    "image": "https://apteka911.ua/content/shop/products/22/analgin-darnitsa-tabl-500mg-10-darnitsa-chao-farm-firma-list-250x250-55b9.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Аспірін",
+    "description": "Жарознижуючий та протизапальний засіб",
+    "price": 40,
+    "image": "https://apteka911.ua/content/shop/products/39/atsetilsalitsilovaya-k-ta-aspirin-tabl-500mg-10-darnitsa-chao-farm-firma-list-250x250-4657.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Нафтизин",
+    "description": "Судинозвужувальний засіб для носа",
+    "price": 28,
+    "image": "https://apteka911.ua/content/shop/products/341/naftizin-kap-nazal-0-1-fl-10ml-p-e-pao-farmak-list-250x250-c56c.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Фармазолін",
+    "description": "Судинозвужувальний засіб для носа",
+    "price": 32,
+    "image": "https://apteka911.ua/content/shop/products/1522/farmazolin-kap-nazal-0-1-fl-p-e-10ml-pao-farmak-list-250x250-60b6.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Аміак",
+    "description": "Нашатирний спирт, стимулятор дихання",
+    "price": 18,
+    "image": "https://apteka911.ua/content/shop/products/206416/ammiaka-r-r-nashatyirnyiy-spirt-10-fl-100ml-tov-dkp-farmatsevticheskaya-fabrika-list-250x250-492f.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Септефрил",
+    "description": "Антисептичний засіб",
+    "price": 25,
+    "image": "https://apteka911.ua/content/shop/products/13933/septefril-tabl-0-2mg-10-agrofarm-ooo-list-250x250-8874.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Грипаут",
+    "description": "Протизастудний комбінований засіб",
+    "price": 65,
+    "image": "https://apteka911.ua/content/shop/products/2214/gripaut-tabl-10-marksans-farma-ltd-b-m-list-250x250-f0e5.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Назалонг спрей",
+    "description": "Судинозвужувальний спрей для носа",
+    "price": 52,
+    "image": "https://apteka911.ua/content/shop/products/3986/nazalong-sprey-nazal-dozir-0-05-fl-10g-mikrofarm-ooo-list-250x250-4d17.jpg"
+  }
+]

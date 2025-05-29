@@ -1,0 +1,147 @@
+.container {
+    height: 87vh;
+    flex: 1;
+    min-Width: 0;
+    margin: 15px;
+    border-Radius: 20px;
+    overflow: hidden;
+    background: #ffffff;
+    display: flex;
+    flex-Direction: column;
+    justify-Content: stretch;
+    padding: 20pt;
+    font-family: "bahnschrift", sans-serif;
+}
+body {
+    background-color: #221D1C;
+}
+
+.scroll-vertical .product-list {
+  overflow: visible;
+  padding: 0;
+}
+.scroll-vertical .product-list button {
+  display: none;
+}
+.scroll-vertical .product-list input {
+  display: none;
+}
+.product-list {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  overflow-y: auto;
+}
+
+.product-block {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 16px;
+  background: #0000000e;
+  width: 230px;
+  box-shadow: #00000069 0px 0px 10px;
+  margin: 2pt;
+  font-family: "bahnschrift", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 300pt;
+}
+.product-block {
+  transition: transform 80ms;
+}
+
+.product-block.animate {
+  transform: scale(1.1);
+  z-index: 2;
+  box-shadow: #000000ab 0px 0px 15px;
+}
+.scroll-vertical {
+  height: 90vh;           /* або бажана висота */
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-vertical .product-list {
+  display: flex;
+  animation: scrollDown 30s linear infinite;
+}
+
+@keyframes scrollDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50.4%); /* підберіть відсоток під висоту контенту */
+  }
+}
+
+.product-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.product-actions input {
+  width: 50px;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.product-actions button {
+  border-radius: 20px;
+  padding: 6px 16px;
+  background: #E0CA3C;
+  color: #221D1C;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.product-actions button:hover {
+  background: #221D1C;
+  color: #E0CA3C;
+}
+
+.toast {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  background: #323232;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  z-index: 1000;
+  font-size: 18px;
+  opacity: 0;
+  transform: translateY(-20px) scale(0.98);
+  animation: toast-fade-in 0.4s cubic-bezier(.4,2,.6,1) forwards;
+}
+
+@keyframes toast-fade-in {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.product-block input {
+  width: 50px;
+  border-radius: 20px;
+  padding: 8px;
+}
+.product-block button {
+  border-radius: 20px;
+  padding: 6px 16px;
+  background: #E0CA3C;
+  color: #221D1C;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.product-block button:hover {
+  background: #221D1C;
+  color: #E0CA3C;
+}

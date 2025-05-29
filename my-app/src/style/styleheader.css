@@ -1,0 +1,49 @@
+body {
+    overflow: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner {
+    background-color: #E0CA3C;
+    width: 100vw;
+    height: 70pt;
+    color: #221D1C;
+    display: flex;
+    flex-direction: row;
+}
+span.header {
+    display: flex;
+    align-Items: center;
+    gap: 10pt;
+    padding-Right: 35pt;
+}
+.header {
+    background: none;
+    border: none;
+    width: 100%;
+    font-family: "bahnschrift", sans-serif;
+    font-size: 20pt;
+    transition: transform 80ms ease, text-shadow 80ms ease;
+    margin: 0pt;
+    padding: 0pt;
+}
+.header.animate {
+    transform: scale(1.2);
+    text-shadow: -2px 1px 1px #221d1c33;
+}
+a {
+    width: 100%;
+    align-content: center;
+    cursor: default;
+    text-decoration: none;
+}
+
+.container button {
+    font-family: "bahnschrift", sans-serif;
+}
+.container input {
+    font-family: "bahnschrift", sans-serif;
+}
