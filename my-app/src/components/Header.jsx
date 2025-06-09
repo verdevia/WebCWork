@@ -50,7 +50,7 @@ export default function Header() {
         </Link>
       </div>
       <div style={{ width: '47vw', display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
-        <img src={symbol} alt="Logo" style={{ width: '50pt', height: '80%', paddingRight: '10pt' }} />
+        <img src={symbol} className="logo" alt="Logo" style={{ width: '50pt', height: '80%', paddingRight: '10pt' }} />
       </div>
     </div>
   );

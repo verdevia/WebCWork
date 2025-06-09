@@ -16,7 +16,7 @@ export default function HomePage() {
         className="container"
         src="https://thepharma.media/uk/news"
         title="Embedded Site"
-        style={{ flex: 1, border: 'none', minWidth: 0, padding: 0 }}
+        style={{ flex: 1.27, border: 'none', minWidth: 0, padding: 0 }}
       />
       <div
         className='scroll-vertical'

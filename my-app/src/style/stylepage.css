@@ -142,12 +142,14 @@ body {
     display: flex;
     flex-direction: column !important;
     height: 100vh;
+    overflow: hidden;
   }
   .container {
-    height: 50%;;
+    height: 70%;;
     min-width: 0;
     margin: 8px 2;
     padding: 8pt;
+    max-height: 600pt;  
   }
 
   .scroll-vertical {
@@ -155,5 +157,9 @@ body {
     min-width: 0;
     margin: 8px 0;
     padding: 2pt;
+  }
+  .product-block {
+    width: 108pt;
+    font-size: 7pt;
   }
 }

@@ -46,3 +46,19 @@ a {
 .container input {
     font-family: "bahnschrift", sans-serif;
 }
+@media (max-width: 700px) {
+.header {
+    background: none;
+    border: none;
+    width: 100%;
+    font-family: "bahnschrift", sans-serif;
+    font-size: 0pt;
+    transition: transform 80ms ease, text-shadow 80ms ease;
+    margin: 0pt;
+    padding: 0pt;
+}
+.logo {
+    display: none;
+}
+}
+
