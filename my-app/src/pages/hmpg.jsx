@@ -12,14 +12,14 @@ export default function HomePage() {
 
   return (
     <div style={{ display: 'flex', height: '100vh' }}>
-      {/* Перша половина: embedded сайт */}
+      {}
       <iframe
         className="container"
         src="https://thepharma.media/uk/news"
         title="Embedded Site"
         style={{ flex: 1.5, border: 'none', minWidth: 0, padding: 0 }}
       />
-      {/* Друга половина: тільки блок з ліками */}
+      {}
       <div
         className='scroll-vertical'
         style={{ flex: 2, cursor: 'pointer', minWidth: 0 }}

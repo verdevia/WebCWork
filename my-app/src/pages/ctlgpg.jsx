@@ -7,7 +7,7 @@ export default function CatalogPage({ onlyMedicines }) {
   const [products, setProducts] = useState([]);
   const [search, setSearch] = useState('');
   const [quantities, setQuantities] = useState({});
-  const [toast, setToast] = useState(null); // Додаємо стейт для сповіщення
+  const [toast, setToast] = useState(null);
 
   useEffect(() => {
     fetch('/products.json')
@@ -36,10 +36,9 @@ export default function CatalogPage({ onlyMedicines }) {
     }
     localStorage.setItem('cart', JSON.stringify(cart));
     setToast(`Додано ${qty} шт. "${product.name}" у кошик!`);
-    setTimeout(() => setToast(null), 2500); // Сповіщення зникне через 2.5 секунди
+    setTimeout(() => setToast(null), 2500); 
   };
 
-  // Фільтрація по пошуку та категорії
   const filtered = products
     .filter(product =>
       product.name.toLowerCase().includes(search.toLowerCase()) ||
@@ -54,7 +53,7 @@ export default function CatalogPage({ onlyMedicines }) {
 
   return (
     <div className="container">
-      {/* Спливаюче сповіщення */}
+      {}
       {toast && (
         <div className='toast'>
           {toast}
@@ -96,7 +95,6 @@ export default function CatalogPage({ onlyMedicines }) {
               </button>
             </div>
           </div>
-          // ...existing code...
         ))}
       </div>
     </div>

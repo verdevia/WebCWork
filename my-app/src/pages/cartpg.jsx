@@ -27,7 +27,7 @@ export default function CartPage() {
       phone: form.phone,
       address: form.address,
       cart: cart.map(i => `${i.name} (${i.quantity})`).join(', '),
-      total: total // додаємо суму
+      total: total
     };
   
     emailjs.send(
