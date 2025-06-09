@@ -133,3 +133,27 @@ body {
   background: #221D1C;
   color: #E0CA3C;
 }
+.maincont {
+  display: flex;
+  height: 100vh;
+}
+@media (max-width: 700px) {
+  .maincont {
+    display: flex;
+    flex-direction: column !important;
+    height: 100vh;
+  }
+  .container {
+    height: 50%;;
+    min-width: 0;
+    margin: 8px 2;
+    padding: 8pt;
+  }
+
+  .scroll-vertical {
+    height: 50%;
+    min-width: 0;
+    margin: 8px 0;
+    padding: 2pt;
+  }
+}
