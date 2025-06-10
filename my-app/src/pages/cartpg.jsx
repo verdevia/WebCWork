@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import { Link, useNavigate } from 'react-router-dom';
+import '../style/stylepage.css';
 
 export default function CartPage() {
   const [cart, setCart] = useState([]);
@@ -75,7 +76,6 @@ export default function CartPage() {
         className="container"
         style={{
           display: 'flex',
-          flexDirection: 'column',
           alignItems: 'center',
           minHeight: '80vh',
           fontSize: '20pt',
@@ -93,13 +93,34 @@ export default function CartPage() {
         </div>
       </div>
     );
+      const isMobile = window.innerWidth <= 700;
+     const productBlockStyle = isMobile
+    ? {
+        width: '90vw',
+        minWidth: 0,
+        height: 'auto',
+        maxHeight: '100vh',
+        margin: '0 auto',
+        overflow: 'auto',
+        fontSize: '9pt',
+        padding: 8,
+      }
+    : {
+        width: '30%',
+        minWidth: 0,
+        height: 'auto',
+        maxHeight: '100%',
+        margin: '0 auto',
+        overflow: 'auto',
+        fontSize: '15pt',
+        padding: 16,
+      };
 
   return (
     <div
         className="container"
         style={{
           display: 'flex',
-          flexDirection: 'column',
           alignItems: 'center',
           minHeight: '80vh',
           fontSize: '20pt',
@@ -111,7 +132,8 @@ export default function CartPage() {
           {toast}
         </div>
       )}
-      <div className='product-block' style={{ width: '50%', height: 'auto', maxHeight: '98%', margin: '0 auto', overflow: 'auto' }}>
+      
+      <div className='product-block' style={productBlockStyle}>
         <h2>Ваш кошик</h2>
         <button
           type="button"
